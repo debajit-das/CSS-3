@@ -3,7 +3,6 @@
   padding: 0;
 }
 header {
-  /* background-color: aquamarine; */
   height: 50px;
   padding: 0% 100px;
   display: flex;
@@ -48,14 +47,14 @@ header {
 }
 .mail {
   height: 100%;
-  width: 77%;
+  width: 76%;
   border-radius: 5px 0px 0px 5px;
   border: none;
   padding-left: 20px;
 }
 .switch {
   height: 100%;
-  width: 19%;
+  width: 20%;
   border: none;
   margin-left: -4px;
   background-color: blue;
@@ -79,6 +78,14 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* border-radius: 11px; */
+  box-shadow: 4px 4px 4px #bdb9b9;
+  transition: 0.2s ease-in;
+}
+.box1:hover,
+.box2:hover,
+.box3:hover {
+  transform: scale(1.05);
 }
 .para1,
 .para3,
@@ -88,5 +95,13 @@ i {
 .para2,
 .para4,
 .para6 {
+  text-align: center;
+}
+footer {
+  margin-top: 30px;
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  background-color: black;
   text-align: center;
 }
